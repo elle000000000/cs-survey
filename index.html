@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Survey Form</title>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/brand/favicon.png" type="image/png">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+    <!-- Icons -->
+    <link rel="stylesheet" href="assets/vendor/nucleo/css/nucleo.css" type="text/css">
+    <link rel="stylesheet" href="assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" type="text/css">
+    <!-- Argon CSS -->
+    <link rel="stylesheet" href="assets/css/argon.css?v=1.2.0" type="text/css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header bg-primary pb-6">
+        <div class="container-fluid">
+            <div class="header-body">
+                <div class="center-form">
+                    <div class="row py-4">
+                        <div class="col-lg-auto col-12">
+                            <h6 class="h2 text-white d-inline-block mb-0">Trial Survey</h6>
+                            <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
+                                <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
+                                    <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i></a></li>
+                                    <li class="breadcrumb-item"><a href="#">Forms</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Google Form</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page content -->
+    <div class="container-fluid mt--6">
+        <div class="card mb-4">
+            <div class="center-form">
+                <div class="col-md-6">
+                    <form
+                        action="https://script.google.com/macros/s/AKfycbzWwE4gcJPcPzP2N9vz25qKDhOQ4CeMLUeg0JreYwISXXiHG5nwJMsFPIJQOD5oBP68mw/exec"
+                        method="post" name="contact-form">
+                        <div class="card-header">
+                            <h3 class="mb-0"> Shape the Future of AI: Your Insights Needed </h3>
+                            <p>We're on a mission to revolutionize the no-code AI landscape, and your expertise is
+                                crucial. This brief survey aims to gather your valuable insights to help us tailor our
+                                solutions to better meet the needs of professionals like you. It will take approximately
+                                5 minutes to complete. As a token of our appreciation, participants will unlock
+                                exclusive early access to our latest platform, complete with lifetime access and
+                                customization options. Your feedback is instrumental in shaping the future of AI
+                                solutions. </p>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group ">
+                                <label class="form-control-label" for="exampleFormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" name="Email"
+                                    placeholder="name@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <h3 class="mb-0">Demographic Information</h3>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    name="Demographic Information" placeholder="(Optional)"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-control-label" for="exampleFormControlTextarea1"> What is your
+                                    industry/field of work? </label>
+                                <textarea class="form-control" name="Industry" id="exampleFormControlTextarea1"
+                                    rows="3" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-control-label" for="exampleFormControlTextarea1"> What is your role
+                                    in your organization? </label>
+                                <textarea class="form-control" name="Role" id="exampleFormControlTextarea1"
+                                    rows="3" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-control-label" for="exampleFormControlTextarea1"> How familiar are
+                                    you with no-code platforms? </label>
+                                <!-- <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> -->
+                                <select class="form-control" name="Familiarity With No Code Platforms"
+                                    id="exampleFormControlSelect1">
+                                    <option value="not_familiar">1 - Not familiar</option>
+                                    <option value="somewhat_familiar">2 - Somewhat familiar</option>
+                                    <option value="familiar">3 - Familiar</option>
+                                    <option value="very_familiar">4 - Very familiar</option>
+                                    <option value="extremely_familiar" selected>5 - Extremely familiar</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="card-header">
+                            <h3 class="mb-0">Specific Systems of Interest</h3>
+                            <p>An AI-driven no-code platform is a revolutionary tool that enables users to customize and
+                                develop applications or systems without any programming knowledge. By integrating
+                                artificial intelligence, these platforms simplify the customization process, allowing
+                                users to tailor functionalities and workflows to their precise needs through intuitive
+                                interfaces. This approach democratizes technology creation, making it accessible and
+                                efficient for users to implement solutions that align perfectly with their unique
+                                requirements and preferences, without the need for a developer's skill set.</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label class="form-control-label" for="exampleFormControlSelect1">Which types of
+                                    AI-driven no-code systems are you most interested in? (Select all that
+                                    apply)</label>
+                                <select class="form-control" name="Interested Systems" id="exampleFormControlSelect1">
+                                    <option>CRM (Customer Relationship Management)</option>
+                                    <option>Accounting and Finance</option>
+                                    <option>Project Management</option>
+                                    <option>Marketing Automation</option>
+                                    <option>HR Management</option>
+                                    <option>Inventory Management</option>
+                                    <option>Resource Allocation System</option>
+                                    <option>Other:</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <h3 class="mb-0">Needs and Preferences</h3>
+                                <label class="form-control-label" for="exampleFormControlSelect2">What are the top three
+                                    features you would like to see in an AI-driven no-code platform?</label>
+                                <div>
+                                    <!-- <input type="text" style="width: 800px; height: 50px;" placeholder="Type your answer..."> -->
+                                    <textarea class="form-control" name="Features" id="exampleFormControlTextarea1"
+                                        rows="3" required></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-control-label" for="exampleFormControlTextarea1">What challenges do
+                                    you face with current no-code platforms, if any? </label>
+                                <textarea class="form-control" name="Challenges" id="exampleFormControlTextarea1"
+                                    rows="3" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <h3 class="mb-0">Engagement and Interest</h3>
+                                <div class="form-group">
+                                    <label class="form-control-label" for="exampleFormControlSelect1"> Would you be
+                                        interested in a demo or trial of our AI-driven no-code platform? </label>
+                                    <select class="form-control" name="Interested Yes/No"
+                                        id="exampleFormControlSelect1">
+                                        <option>Yes</option>
+                                        <option>No</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-control-label" for="exampleFormControlSelect2">Are there any
+                                        specific functionalities or tools you're looking for in an AI-driven no-code
+                                        solution?</label>
+                                    <!-- <input type="text" style="width: 800px; height: 50px;" placeholder="Type your answer..."> -->
+                                    <textarea class="form-control" name="Functionalities"
+                                        id="exampleFormControlTextarea1" rows="3" required></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-control-label" for="exampleFormControlSelect2">Opportunity
+                                        ID</label>
+                                    <!-- <input type="text" style="width: 800px; height: 50px;" placeholder="Type your answer..."> -->
+                                    <textarea class="form-control" name="Opportunity ID"
+                                        id="exampleFormControlTextarea1" rows="3" required></textarea>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary" type="submit">Submit form</button>
+                                <!-- Thank You Message   Section (Initially Hidden) -->
+                                <!-- <div class="mt-3" id="thankYouMessage" style="display: none;">
+                                    <h2>Thank You!</h2>
+                                    <p>Your form has been submitted successfully. Thank you for your submission.</p>
+                                </div> -->
+                            </div>
+                            <script>
+                                const scriptURL = 'https://script.google.com/macros/s/AKfycbzWwE4gcJPcPzP2N9vz25qKDhOQ4CeMLUeg0JreYwISXXiHG5nwJMsFPIJQOD5oBP68mw/exec'
+
+                                const form = document.forms['contact-form']
+                                
+                                 form.addEventListener('submit', e => {
+                                        e.preventDefault()
+                                        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                                        
+                                            .then(() => { window.location.href = 'thankyoupage.html'; })
+                                            .catch(error => console.error('Error!', error.message))
+                                        })
+                            </script>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
